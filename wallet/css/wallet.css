@@ -1,0 +1,313 @@
+/* 营销钱包样式 */
+
+
+/* WalletHeader 样式 */
+
+.wallte .wallet-header .ant-card-body {
+    /* height: 150px; */
+    padding: 16px ;
+}
+
+.wallte .wallet-header .font-header-mony {
+    font-family: PingFangSC-Semibold;
+    font-size: 14px;
+    color: #01193B;
+}
+.wallte .font-header-monyNumber{
+    font-family: PingFangSC-Semibold;
+    font-size: 12px;
+    color: #FF6F00
+}
+.wallte .blue-bar{
+    margin-top: 3px;
+    margin-right: 8px;
+    background: #3082FD;
+    width: 4px;
+    height: 14px;
+    display:inline-block;
+}
+
+.wallte .wallet-header .ant-card-head-title {
+    padding: 24px 0px 0px 0px;
+}
+
+.wallte .wallet-header .ant-card-head {
+    border-bottom: unset;
+}
+
+.wallte .special-button-group .ant-btn {
+    min-width: 82px;
+    height: 32px;
+    margin-left: 15px;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #01193B;
+    text-align: center;
+}
+.wallte .header-button-group .ant-btn{
+    min-width: 82px;
+    height: 32px;
+    margin-left: 15px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #01193B;
+    text-align: center;
+ 
+}
+.wallte .header-button-group{
+    text-align: right;
+}
+.wallte .special-button-group{
+    text-align: right;
+}
+
+.wallte .header-button-group .ant-btn-primary{
+    min-width: 82px;
+    height: 32px;
+    margin-left: 15px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.wallte .wallet-header .ant-col-5 {
+    margin-left: 15px;
+}
+
+.wallte .wallet-header .ant-row {
+    display: flex;
+    align-items: center;
+}
+
+.wallte .wallet-header .wallet-header-info {
+    position: absolute;
+    left: -7px;
+    top: 34px;
+
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #808C9D;
+
+}
+.wallte .wallet-header .wallet-header-text{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #808C9D;
+}
+
+/* WalletSpecialList 样式 */
+
+.wallte .wallet-special-list {
+    margin-top: 20px;
+}
+
+.wallet-special-list .ant-card-head {
+    border-bottom: unset;
+}
+
+.wallet-special-list .ant-card-head-title {
+    padding: 24px 0px 0px 0px;
+}
+
+
+/* IncomeDetails 样式 */
+
+.income-list .ant-card-head-title {
+    padding: 24px 0px 0px 0px;
+}
+
+.income-list .ant-card-head {
+    border-bottom: unset;
+}
+
+.wallte .income-list {
+    margin-top: 20px;
+}
+
+.rechargeModal-modal-radio-text{
+    color: #808C9D;
+    position: relative;
+    top: -8px;
+}
+
+.special-wallet .ant-card-bordered{
+    margin-bottom: 8px;
+}
+
+.wallte .ant-btn-primary:focus, .ant-btn-primary:hover{
+    color: white !important;
+}
+
+.wallte .yellow-alert{
+    background: #FFFDE6;
+    border:1px solid  #FFF5AC;
+    border-radius: 4px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    padding: 12px;
+}
+.wallte  .yellow-text{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #334762;
+}
+
+.wallte  .ant-table-thead>tr>th{
+    padding: 12px;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #808C9D;
+}
+
+
+.wallte .ant-table-tbody>tr>td{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #334762;
+}
+.wallte .ant-select-selection-selected-value{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #808C9D;
+}
+.wallte .ant-select-selection{
+    border: unset;
+    background: #fafafa;
+    position: relative;
+    left: -6px;
+}
+.wallte .ant-select-open .ant-select-selection{
+    box-shadow: unset;
+}
+.wallte .ant-select-focused .ant-select-selection, .ant-select-selection:active, .ant-select-selection:focus{
+    box-shadow: unset;
+}
+.wallte  .ant-select-arrow .ant-select-arrow-icon svg{
+    transition: unset;
+}
+.wallte .income-table-item{
+   margin-left: 10px;
+}
+
+.wallte .search-day{
+    font-size: 12px;
+}
+.wallte .ant-btn:focus, .ant-btn:hover{
+    color:#247DFF;  
+}
+.wallte .income-list .ant-select-open .ant-select-arrow-icon svg{
+    transform: unset;
+
+}
+.wallte .ant-calendar-picker .ant-input{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+}
+.RechargeModal-Modal .flex-of-item{
+    display:flex;
+    justify-content:flex-end;
+}
+
+.RechargeModal-Modal .lable-set .ant-form-item-label{
+    width: 24.7%;
+}
+.RechargeModal-Modal .font-set{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #334762;
+}
+.RechargeModal-Modal  .ant-modal-body{
+    padding: 16px;
+}
+.modale-title{
+    font-family:PingFangSC-Semibold;
+    font-size: 16px;
+    color: #01193B;
+}
+.RechargeModal-Modal .set-Width .ant-form-item-label{
+    width: 23%;
+}
+.RechargeModal-Modal .set-Width  .ant-upload-list-item{
+    height: 47px;
+}
+.RechargeModal-Modal .ant-form-explain{
+    font-size: 12px;
+}
+ .ant-select-dropdown-menu-item{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #334762;
+}
+ .ant-select-dropdown-placement-bottomLeft{
+  width: 140px !important;
+  /* left: 634px !important; */
+}
+
+
+
+
+
+
+.ant-form-item-required:before{
+    display: none !important;
+ }
+ 
+ .required:before{
+   display: none !important;
+ }
+
+ .ant-form-item-required:after{
+   display: inline-block !important ;
+   margin-right: 4px !important;
+   color: #f5222d !important;
+   font-size: 14px !important;
+   font-family: PingFangSC-Regular !important;
+   line-height: 1 !important;
+   content: "*" !important;
+   margin-top: 3px;
+   top: 1.5px !important;
+ }
+ .ant-popover-inner-content{
+    width: 192px;
+    background: #051832;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #FFFFFF;
+    border-radius: 4px;
+ }
+ .ant-popover-placement-bottom>.ant-popover-content>.ant-popover-arrow{
+    background: #051832;
+    color: #051832;
+ }
+ .income-list .ant-card-body{
+     padding: 16px 0px 16px 0px;
+ }
+ .income-list .ant-menu-horizontal{
+    border-top: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+ }
+ .income-list .income-list-table{
+     padding: 16px;
+ }
+ 
+ .ant-tooltip-inner{
+     background: white;
+     color: #01193B;
+     font-family: PingFangSC-Regular;
+    font-size: 12px;
+ }
+ .ant-tooltip-arrow:before{
+    background-color:white;
+ }
+ 
+ .ant-popover-placement-bottom>.ant-popover-content>.ant-popover-arrow{
+     border-color:#01193B ;
+ }
+ .RechargeModal-Modal .position-set{
+    position: absolute;
+    top: 12px;
+    left: 243px;
+ }
